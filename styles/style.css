@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+}
+
+body {
+    background: url(../images/pizza_1920x1280.jpg) no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header {
+    background-color: rgba(211, 211, 211, 0.708);
+    text-align: center;
+    height: 50px;
+}
+
+header > h1 {
+    font-size: 2.7em;
+}
+
+menu {
+    padding: 10px;
+    background-color: rgba(148, 146, 146, 0.708);
+    display: inline-block;
+    cursor: pointer;
+}
+
+menu:hover {
+    background-color: white;
+}
+
+menu > ul {
+    display: none;
+    list-style-type: none;
+}
